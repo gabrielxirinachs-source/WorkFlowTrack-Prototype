@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "username": "pmaria",
+        "name": "Paula Manager",
+        "role": "project_manager",
+        "password": "$2y$12$aAMu2BFWpZOKjqI20XAEx./A4P59Fb5xdzcV0buZGrTCyH1zBGh2O"
+    },
+    {
+        "id": 2,
+        "username": "tjohnson",
+        "name": "Taylor Johnson",
+        "role": "team_member",
+        "password": "$2y$12$zYaxO8JOT2Qd2pbjTX1lyuRdniFza7FbKk8i.X8zv7DUas4ahhZ8G"
+    },
+    {
+        "id": 3,
+        "username": "admin1",
+        "name": "Alex Admin",
+        "role": "system_administrator",
+        "password": "$2y$12$dxeDCeTMSdltp7HBZwuqBe0WOg3ePZ5dji9mSzuujaliG9G2Qir/u"
+    },
+    {
+        "id": 4,
+        "username": "dept1",
+        "name": "Dana Department",
+        "role": "department_management",
+        "password": "$2y$12$xJyb9ph7Mplv9gyCtHyIv.jKan9i7TBVBaTl4OzMud2ZBMpWt9OOO"
+    }
+]
