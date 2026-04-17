@@ -63,6 +63,31 @@ a { color: inherit; text-decoration: none; }
   background: rgba(255,255,255,0.12);
 }
 
+.logout-form,
+.inline-form {
+  display: inline-flex;
+  gap: 0;
+  margin: 0;
+}
+
+.logout-form {
+  display: block;
+}
+
+.nav-logout {
+  width: 100%;
+  padding: 12px 14px;
+  border-radius: 8px;
+  background: rgba(255,255,255,0.06);
+  color: #fff;
+  justify-content: flex-start;
+  box-shadow: none;
+}
+
+.nav-logout:hover {
+  background: rgba(255,255,255,0.12);
+}
+
 .user-card {
   display: grid;
   gap: 4px;

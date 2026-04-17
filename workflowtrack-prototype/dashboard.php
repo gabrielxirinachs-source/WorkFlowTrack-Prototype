@@ -15,16 +15,17 @@ $total = max(1, $metrics['total']);
         <h1>Dashboard</h1>
         <p><?= e(roleLabel($user['role'])) ?> view of current workload, status, and next actions.</p>
     </div>
-    <?php if ($user['role'] === 'project_manager'): ?>
-        <div class="row-actions">
+    <div class="row-actions">
+        <?php if ($user['role'] === 'project_manager'): ?>
             <a class="btn" href="task_create.php">Create Task</a>
             <a class="btn btn-secondary" href="workflow.php">Open Workflow</a>
-        </div>
-    <?php elseif ($user['role'] === 'team_member'): ?>
-        <div class="row-actions">
+        <?php elseif ($user['role'] === 'team_member'): ?>
             <a class="btn" href="workflow.php">Update My Tasks</a>
-        </div>
-    <?php endif; ?>
+        <?php endif; ?>
+        <form class="inline-form" method="post" action="logout.php">
+            <button class="btn btn-secondary" type="submit">Logout</button>
+        </form>
+    </div>
 </div>
 
 <div class="kpi-grid">

@@ -28,7 +28,9 @@ $flash = getFlash();
                 <?php if ($user['role'] === 'project_manager'): ?>
                     <a href="task_create.php">Create Task</a>
                 <?php endif; ?>
-                <a href="logout.php">Logout</a>
+                <form class="logout-form" method="post" action="logout.php">
+                    <button class="nav-logout" type="submit">Logout</button>
+                </form>
             </nav>
             <div class="user-card">
                 <strong><?= e($user['name']) ?></strong>
